@@ -1,0 +1,21 @@
+
+
+/* DEBUG */
+header {
+    min-height: 100px;
+    background-color: rgb(34, 255, 0);
+}
+
+main {
+    background-color: rgb(0, 225, 255);
+}
+
+main section {
+    min-height: 200px;
+    border: 2px dotted pink;
+}
+
+footer {
+    min-height: 100px;
+    background-color: rgb(0, 76, 255);
+}
