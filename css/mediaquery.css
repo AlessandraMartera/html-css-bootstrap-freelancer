@@ -1,0 +1,9 @@
+@media screen and ( min-width: 770px) {
+    .header_little_menu {
+        display: none;
+    }
+
+    .header_big_menu {
+        display: block;
+    }
+}

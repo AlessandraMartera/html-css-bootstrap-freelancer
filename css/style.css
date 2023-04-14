@@ -1,9 +1,32 @@
+/* utility */
+.height {
+    min-height: ;
+}
+
+
+/* HEADER */
+header {
+    background-color: #2c3e50;
+    padding: 20px;
+}
+
+.header_big_menu {
+    display: none;
+}
+
+/* JUMBO */
+.jumbotrone {
+    background-color: #1abc9c;
+}
+
 
 
 /* DEBUG */
-header {
+/* General */
+
+
+.jumbotrone {
     min-height: 100px;
-    background-color: rgb(34, 255, 0);
 }
 
 main {
@@ -18,4 +41,15 @@ main section {
 footer {
     min-height: 100px;
     background-color: rgb(0, 76, 255);
+}
+
+/* Boostrap */
+.item_debug {
+    min-height: 50px;
+    background-color: pink;
+}
+
+[class*="col"] {
+
+    border: 1px dotted black;
 }
