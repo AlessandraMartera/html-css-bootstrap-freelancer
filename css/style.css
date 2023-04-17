@@ -60,7 +60,9 @@ Navbar from boostrap
 .jumbotrone {
     background-color: #1abc9c;
     color: #fff;
+    padding: 20px 0;
 }
+
 
 .divider_wrapper .divider_line{
     width: 60%;
@@ -76,8 +78,17 @@ Navbar from boostrap
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px 0;
 }
 
+.divider_wrapper i {
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.jumbo_text {
+    font-size: 18px;
+}
 /* main */
 section {
     padding: 40px 0;
