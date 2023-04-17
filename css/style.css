@@ -31,11 +31,17 @@
 
 body {
     color: #fff;
+    font-weight: 500;
+    font-size: large;
+    font-family: 'Nunito', sans-serif;
 }
 
 button {
     background-color: #00000000;
     padding: 10px;
+    border-radius: 10px;
+    border: 2px solid  #fff;
+    color: #fff;
 }
 /* HEADER */
 header {
@@ -71,10 +77,9 @@ Navbar from boostrap
 }
 
 .header_little_menu button{
-    background-color: #ffffff00;
+    background-color: #00000000;
     color: #7f8082;
     border: 2px solid #b2b7bb;
-    border-radius: 5px;
     padding: 0 10px;
 }
 
@@ -116,6 +121,7 @@ section {
 
 /* about us */
 .text_about {
+    text-align: left;
     padding: 10px;
 }
 
