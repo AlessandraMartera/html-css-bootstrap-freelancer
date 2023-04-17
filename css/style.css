@@ -5,9 +5,37 @@
     background-color: #1abc9c;
 }
 
+.divider_wrapper .divider_line{
+    width: 100%;
+    max-width: 200px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.divider_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.divider_wrapper i {
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+/* General settings */
 
 body {
     color: #fff;
+}
+
+button {
+    background-color: #00000000;
+    padding: 10px;
 }
 /* HEADER */
 header {
@@ -63,29 +91,6 @@ Navbar from boostrap
     padding: 20px 0;
 }
 
-
-.divider_wrapper .divider_line{
-    width: 60%;
-    max-width: 200px;
-    height: 4px;
-    background-color: #fff;
-    border-radius: 50px;
-    display: inline-block;
-    margin: 0 3px;
-}
-
-.divider_wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-}
-
-.divider_wrapper i {
-    margin: 0 10px;
-    font-size: 20px;
-}
-
 .jumbo_text {
     font-size: 18px;
 }
@@ -102,6 +107,11 @@ section {
 
 .portfolio .divider_line{
     background-color: #2c3e50;
+}
+
+.portfolio img {
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 /* about us */
