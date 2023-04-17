@@ -5,5 +5,18 @@
 
     .header_big_menu {
         display: block;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .header_big_menu a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.4rem;
+    }
+
+    .header_big_menu a:hover {
+        color:  #000;
+
     }
 }
